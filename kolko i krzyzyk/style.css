@@ -1,0 +1,70 @@
+.pole{
+    width: 100px;
+    height: 100px;
+    font-size: 75px;
+    font-family: Comic Sans Ms;
+    text-align: center; 
+}
+#p1{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    float: left;
+    border-radius: 50px 0 0 0;
+}
+#p2{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    float: left;
+    
+}
+#p3{
+    border-bottom: 2px solid black;
+    float: left;
+    border-radius: 0 50px 0 0;
+}
+#p4{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    clear: both;
+    float: left;
+}
+#p5{
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    float: left;
+}
+#p6{
+    border-bottom: 2px solid black;
+    float: left;
+}
+#p7{
+    border-right: 2px solid black;
+    clear: both;
+    float: left;
+    border-radius: 0 0 0 50px;
+}
+#p8{
+    border-right: 2px solid black;
+    float: left;
+}
+#p9{
+    float: left;
+    border-radius: 0 0 50px 0;
+}
+.pole:hover{
+    background-color: rgba(173, 173, 173, 0.22);
+}
+#who{
+    clear: both;
+    position: absolute;
+    width: 350px;
+    height: 100px;
+    font-size: 57px;
+    text-align: center;
+    font-family: Comic Sans MS;
+    color: white;
+    margin-left: 500px;
+    margin-top: 55px;
+    background-color: red;
+    border-radius: 50px;
+}
