@@ -1,0 +1,55 @@
+<html>
+<head>
+    <title>v0.03 Podbijanie</title>
+  <meta charset="UTF-8">
+  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+  <!-- uncomment lines below to include extra p5 libraries -->
+  <!--<script language="javascript" src="libraries/p5.dom.js"></script>-->
+  <!--<script language="javascript" src="libraries/p5.sound.js"></script>-->
+  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+  <!-- this line removes any default padding and style. you might only need one of these values set. -->
+  <style> body {padding: 0; margin: 0;} 
+    #defaultCanvas0{
+      border: 2px solid black;  
+      }
+      #gameOvr{
+          visibility: hidden;
+          position: absolute;
+          margin-top: 300px;
+          margin-left: 235px;
+          height: 50px;
+          width: 230px;
+          font-size: 49px;
+          text-align: center;
+      }
+      #wynik{
+          position: absolute;
+          margin-top: 10px;
+          margin-left: 340px;
+          font-size: 50px;
+          color: lightgrey;
+      }
+      #zmiany{
+          position: absolute;
+          margin-left: 720px;
+          margin-top: 10px;
+          padding: 5px;
+          border: 1px solid black;
+          max-width: 350px;
+      }
+      #zmiany span{
+          max-width: 350px;
+      }
+    </style>
+</head>
+
+<body>
+    <p id="wynik">0</p>
+    <p id="gameOvr">Koniec Gry</p>
+    <p id="zmiany"><span>
+        &bull;v0.01 - Piłeczka lata góra dół.<br />
+        &bull;v0.02 - Piłeczka reaguje na interakcje użytkownika, wynik zostaje zliczany, gra się kończy i zaczyna od nowa.<br />
+        &bull;v0.03 - piłka zmienia kierunek swojego lotu zgodnie z fizyką.<br />
+        </span></p>
+</body>
+</html>
