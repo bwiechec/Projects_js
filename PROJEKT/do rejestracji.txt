@@ -1,0 +1,1 @@
+INSERT INTO `uzytkownicy`(`id_uzytkownika`, `login`, `haslo`, `email`, `data_zalozenia`, `uprawnienia`) VALUES ()

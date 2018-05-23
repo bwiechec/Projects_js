@@ -1,0 +1,19 @@
+body{
+    background-size:100% 100%;
+}
+.container {
+    position: relative;
+	margin-top: 6%;
+}
+.form-horizontal {
+    margin-left: -500px;   
+}
+#cfHeader {
+    margin-left: 34%;
+}
+#IEheader {
+    color: white;
+	font-weight: bold;
+	font-style: oblique;   
+}
+
